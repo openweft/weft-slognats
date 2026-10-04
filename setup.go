@@ -25,8 +25,9 @@ const EnvNATSURL = "WEFT_NATS_URL"
 //	weft.<component>.<host_or_vm_id>.log
 //
 // e.g. "weft.agent."+hostUUID+".log",
-//      "weft.driver.qemu."+hostUUID+".log",
-//      "weft.ha.postgres."+nodeName+".log".
+//
+//	"weft.driver.qemu."+hostUUID+".log",
+//	"weft.ha.postgres."+nodeName+".log".
 //
 // Failure modes :
 //   - WEFT_NATS_URL unset           → degraded mode, no error
